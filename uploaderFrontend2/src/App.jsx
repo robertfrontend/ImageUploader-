@@ -22,7 +22,7 @@ function App() {
       }
 
       const response = await axios.post(
-        "http://127.0.0.1:8000/upload_image",
+        "https://imageuploaderrobertfrontend.herokuapp.com/upload_image",
         form_data
       );
 
